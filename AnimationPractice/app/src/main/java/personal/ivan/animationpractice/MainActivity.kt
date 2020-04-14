@@ -44,11 +44,11 @@ class MainActivity : AppCompatActivity() {
 
         mBinding.button9.setOnClickListener { playTogether() }
 
-        mBinding.imageView2.apply {
-            mAnimVector = drawable as AnimatedVectorDrawable
+//        mBinding.imageView2.apply {
+//            mAnimVector = drawable as AnimatedVectorDrawable
 //            setBackgroundResource(R.drawable.anim_move)
 //            mAnim = background as AnimationDrawable
-        }
+//        }
         mBinding.button10.setOnClickListener { mAnimVector.start() }
     }
 

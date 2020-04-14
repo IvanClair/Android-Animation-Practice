@@ -5,11 +5,7 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorSecondary">@color/colorPrimaryDark</item>
-        <item name="android:colorBackground">@color/neutral_100</item>
 
-        <item name="android:windowContentTransitions">true</item>
-        <item name="android:windowEnterTransition">@transition/activity_fade</item>
-        <item name="android:windowExitTransition">@transition/activity_slide</item>
+        <item name="textColor">@color/colorPrimaryDark</item>
     </style>
-
 </resources>

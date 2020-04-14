@@ -130,16 +130,16 @@
         app:layout_constraintTop_toBottomOf="@+id/button8"
         tools:ignore="HardcodedText" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:contentDescription="@null"
-        android:src="@drawable/anim_gogo"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/layout"
-        tools:src="@drawable/test_vector" />
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView2"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="32dp"-->
+    <!--        android:contentDescription="@null"-->
+    <!--        android:src="@drawable/anim_gogo"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/layout"-->
+    <!--        tools:src="@drawable/test_vector" />-->
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button10"
@@ -147,6 +147,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="drawable"
+        app:icon="@drawable/accessible_24px"
+        app:iconTint="@color/icon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="HardcodedText" />
